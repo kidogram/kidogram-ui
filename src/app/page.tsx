@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import Button from './components/button';
 
@@ -9,8 +9,12 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <Button onClick={handleClick} variant="primary">Primary Button</Button>
-      <Button onClick={handleClick} variant="secondary">Secondary Button</Button>
+      <Button onClick={handleClick} variant="primary">
+        Primary Button
+      </Button>
+      <Button onClick={handleClick} variant="secondary">
+        Secondary Button
+      </Button>
     </div>
   );
 };
