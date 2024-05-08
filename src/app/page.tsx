@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Button from './components/button';
+import Header from './components/header';
 
 const App: React.FC = () => {
   const handleClick = () => {
@@ -9,6 +10,7 @@ const App: React.FC = () => {
 
   return (
     <div>
+      <Header />
       <Button onClick={handleClick} variant="primary">
         Primary Button
       </Button>
