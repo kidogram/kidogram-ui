@@ -23,16 +23,16 @@ const App: React.FC = () => {
           <div className="flex flex-col gap-16 ">
             <div className="flex flex-col gap-8 ">
               {' '}
-              <p className='flex  justify-center'>
+              <p className="flex  justify-center">
                 We’re making kids’ fashion highly personalized & hassle-free.
               </p>
               <div className="flex flex-col gap-4  ">
-                <p className='flex  justify-center'>
+                <p className="flex  justify-center">
                   Be it any special occasion, a school trip or just a casual
                   evening hangout with friends — your kid deserves to look good
                   and feel confident with themselves.
                 </p>
-                <p className='flex  justify-center'>
+                <p className="flex  justify-center">
                   {' '}
                   Our industry expert stylists help curate what works and looks
                   best for them.

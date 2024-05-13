@@ -102,6 +102,7 @@ const Header = () => {
             {SideNavigationData.map(nav => {
               return (
                 <Link
+                  key={nav.title}
                   href="#"
                   className="block  md:py-0 bg-[none] !p-2 h-10 rounded-[12px] hover:bg-[#F2F2F2]"
                 >
