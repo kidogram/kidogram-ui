@@ -103,7 +103,7 @@ const Header = () => {
               return (
                 <Link
                   href="#"
-                  className="block py-2 md:py-0 hover:text-gray-300"
+                  className="block  md:py-0 bg-[none] !p-2 h-10 rounded-[12px] hover:bg-[#F2F2F2]"
                 >
                   {nav.title}
                 </Link>
